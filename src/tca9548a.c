@@ -373,4 +373,4 @@ static int tca9548a_auto_init(void)
 
     return 0;
 }
-INIT_DEVICE_EXPORT(tca9548a_auto_init);
+INIT_COMPONENT_EXPORT(tca9548a_auto_init);
